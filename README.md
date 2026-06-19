@@ -14,12 +14,12 @@ This directory contains the Python implementations supporting the paper *"Improv
 │   ├── TWINE_10r_classical.py
 │   └── TWINE_11r_classical.py
 ├── Probability verification/   # Empirical verification of periodic properties
-│   ├── LBlock_9r_p0.py
-│   ├── LBlock_10r_p8.py
-│   ├── LBlock_11r_p20.py
-│   ├── TWINE_9r_p0.py
-│   ├── TWINE_10r_p8.py
-│   └── TWINE_11r_p20.py
+│   ├── LBlock_9r.py
+│   ├── LBlock_10r.py
+│   ├── LBlock_11r.py
+│   ├── TWINE_9r.py
+│   ├── TWINE_10r.py
+│   └── TWINE_11r.py
 ├── lblock10.pdf              # Route diagram of the 10-round LBlock periodic distinguisher
 └── TWINE10.pdf               # Route diagram of the 10-round TWINE periodic distinguisher
 ```
@@ -67,12 +67,12 @@ python "Classical implementation/TWINE_11r_classical.py"
 
 **Probability verification:**
 ```bash
-python "Probability verification/LBlock_9r_p0.py"
-python "Probability verification/LBlock_10r_p8.py"
-python "Probability verification/LBlock_11r_p20.py"
-python "Probability verification/TWINE_9r_p0.py"
-python "Probability verification/TWINE_10r_p8.py"
-python "Probability verification/TWINE_11r_p20.py"
+python "Probability verification/LBlock_9r.py"
+python "Probability verification/LBlock_10r.py"
+python "Probability verification/LBlock_11r.py"
+python "Probability verification/TWINE_9r.py"
+python "Probability verification/TWINE_10r.py"
+python "Probability verification/TWINE_11r.py"
 ```
 
 ## Notes
